@@ -64,3 +64,7 @@ $(document).keypress(function(event){
 
     }
 })
+$(document).click(function(){
+     colorGenerator();
+     $("#level-title").text("Level "+level);
+})
