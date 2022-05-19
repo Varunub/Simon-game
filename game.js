@@ -63,4 +63,9 @@ $(document).keypress(function(event){
     else{
 
     }
-})
+});
+$("#level-title").click(function(){
+    
+    colorGenerator();
+    $("#level-title").text("Level "+level);  
+});
